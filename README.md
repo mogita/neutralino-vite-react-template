@@ -12,6 +12,10 @@ So called the NVR template. Just fork the project and start coding. Hope this li
 
 Tweak the `neutralino.config.json` and `vite.config.js` to adapt to your needs.
 
+# Screenshot
+
+![Neutralino Vite React Template Screenshot](nvr-example-screen.png 'Neutralino Vite React Template Screenshot')
+
 # License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
