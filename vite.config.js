@@ -9,6 +9,9 @@ export default defineConfig({
   server: {
     port: 3000,
     strictPort: true,
+    watch: {
+      usePolling: true,
+    },
   },
   build: {
     minify: 'esbuild',
@@ -19,7 +22,7 @@ export default defineConfig({
   },
   plugins: [
     react({
-      include: 'src/**/*.jsx', // This includes all the .jsx files under src correctly
+      include: 'gui/src/**/*.jsx', // This includes all the .jsx files under src correctly
     }),
   ],
 })
